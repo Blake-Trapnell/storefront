@@ -1,4 +1,5 @@
 .home--navbar {
+    height: 5vh;
     h4 {
         margin: 10px;
     }
@@ -16,4 +17,8 @@
 .home--image-carousel-container {
     height: 100vh;
     background-color: pink;
+}
+
+article {
+    height: 100vh;
 }

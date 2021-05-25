@@ -1,5 +1,5 @@
 import "./home.scss";
-import {ImageCarousel} from "./imageCarousel.js"
+import ImageCarousel from "./imageCarousel.js"
 import Navbar from "./navbar.js";
 import About from "./about.js";
 const Home = () => {

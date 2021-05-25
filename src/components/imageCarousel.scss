@@ -1,0 +1,15 @@
+.home--image-carousel-container {
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    perspective: 1000px;
+    img {
+        width: 60%;
+        height: auto;
+        background-color: white;
+        transform: rotateY(-50deg) rotateZ(10deg);
+        box-shadow: 80px 50px 50px 10px rgba(17, 17, 17, 0.459);
+    }
+}
