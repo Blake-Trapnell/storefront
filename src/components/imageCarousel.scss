@@ -2,14 +2,17 @@
     height: 95vh;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    perspective: 1000px;
-    img {
-        width: 60%;
-        height: auto;
-        background-color: white;
-        transform: rotateY(-50deg) rotateZ(10deg);
-        box-shadow: 80px 50px 50px 10px rgba(17, 17, 17, 0.459);
-    }
+    perspective: 900px;
+    overflow: hidden;
 }
+
+.home--image-carousel--image {
+    position: absolute;
+    border-radius:  5px;
+    width: 100%;
+    height: auto;
+    background-color: rgb(29, 29, 29);
+    transform: rotateY(-50deg) rotateZ(5deg) translateX(calc(-30px * var(--i))) translateZ(calc(50px * var(--i))) translateY(calc(50px * var(--i)));
+    box-shadow: 30px 20px 20px 10px rgba(17, 17, 17, 0.151);
+}
+
